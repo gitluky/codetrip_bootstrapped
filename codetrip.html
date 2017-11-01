@@ -1,0 +1,42 @@
+<html>
+	<head>
+	
+
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href = "#">Home</a></li>
+				<li>
+					<input type="#" name="subject">
+				</li>
+			</ul>
+		</nav>
+		<section>
+			<h4>BASIC TAGS</h4><br>
+			&ltp&gt&lt/p&gt <p class = "term">paragraph</p><p>to insert text</p>
+		</section>
+
+
+		FORMS
+
+		&ltform action="process-user.php" method="get"&gt
+		  <br class ="indented">&ltinput type="text" name="full-name"&gt
+		  <br class ="indented">&ltinput type="password" name="password"&gt
+		  <br>&ltinput type="submit" value="submit"&gt<br>
+		&lt/form&gt
+
+		<a>
+		action: location to send data
+
+		method: method of sending collected data
+			get: causes the information to be sent as a Query String included into the URL.
+
+			post: HTTP Post request is ideally used when we wish to post content to the server. This is the more appropriate of the two methods for sending something like a password as the content is sent within Form Data and not directly visible in a query string in the URL as they are with GET requests.
+
+			other HTTP methods: patch, put, delete
+		</a>
+
+	</body>
+</html>
+
