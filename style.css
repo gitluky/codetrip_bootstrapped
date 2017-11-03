@@ -1,0 +1,10 @@
+
+.title {
+	text-align: center;
+	font: normal 2em/.1em monospace, Calibri;
+}
+
+.main-section{
+	display: inline;
+	clear: left;
+}
