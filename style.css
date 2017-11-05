@@ -1,10 +1,64 @@
+.wrapper{
+	margin: 0 auto;
+	background: grey;
+	clear: both;	
+}
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+#banner {
+	margin: 0 auto;
+	display: block;
+}
+
 
 .title {
 	text-align: center;
 	font: normal 2em/.1em monospace, Calibri;
 }
 
-.main-section{
-	display: inline;
-	clear: left;
+#site-nav {
+	text-align: center;
+	background: white;
+
+}
+
+#site-nav span a:link {
+	color: black;
+
+}
+
+#site-nav span a:hover {
+	color: grey;
+
+}
+#lesson-nav {
+	background: red;
+	float: left;
+	clear: both;
+	width: 20%;
+	min-width: 20%;
+}
+
+#main {
+	background: blue;
+	width: 70%;
+	margin: 0 auto;
+	float: left;
+	padding-left: 1%;
+	box-sizing: border-box;
+
+
+}
+
+footer {
+	clear:both;
 }
