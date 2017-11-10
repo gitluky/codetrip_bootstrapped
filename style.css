@@ -1,7 +1,26 @@
+/*////GENERAL////*/
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+	width: 640px;
+	height: 480px;
+}
+
+/*////WRAPPER////*/
+
+
 .wrapper{
 	margin: 0 auto;
-	background: grey;
-	clear: both;	
+	width: 70%;
+	min-width: 480px;
 }
 
 
@@ -14,51 +33,108 @@
 	line-height: 0;
 }
 
+
+/*////HEADER////*/
+
+h1 {
+	text-align: center;
+	font: bold 4em/.1em monospace, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font: bold 2em/0em monospace, sans-serif;
+	color: white;
+	background-color: #bbb;
+	width: 100%;
+	padding: 20px;
+}
+
+h3 {
+	text-align: center;
+	font: bold 1.25em/0em monospace, sans-serif;
+}
+
+hgroup{
+	margin: 10px auto 0;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
 #banner {
 	margin: 0 auto;
 	display: block;
+	width: 100%;
+	padding-bottom: 1%;
+	border-bottom: 1px solid #ccc;
 }
 
-
-.title {
-	text-align: center;
-	font: normal 2em/.1em monospace, Calibri;
-}
+/*////SITE NAVIGATION////*/
 
 #site-nav {
 	text-align: center;
-	background: white;
+	padding: 4px 0;
+	margin-bottom: 6px;
+	border-bottom: 1px solid #ccc;
 
 }
 
-#site-nav span a:link {
+#site-nav a, a:visited {
+	font: normal 1.2em/1em monospace;
 	color: black;
-
+	padding: 0 6px;
 }
 
-#site-nav span a:hover {
+#site-nav a:hover {
 	color: grey;
 
 }
-#lesson-nav {
-	background: red;
-	float: left;
-	clear: both;
-	width: 20%;
-	min-width: 20%;
+
+.menu-icon {
+	display: none;
+	color:black;
+	text-decoration: none;
 }
 
-#main {
-	background: blue;
-	width: 70%;
-	margin: 0 auto;
-	float: left;
-	padding-left: 1%;
-	box-sizing: border-box;
+/*////WELCOME MESSAGE////*/
 
-
+#welcome {
+	font: normal 1em/1em Calibri;
+	margin: 1% auto;
+	padding: 2% auto%;
+	border-bottom: 1px solid #ccc;
 }
 
-footer {
+/*////COLUMNS////*/
+
+.col-quarter {
+	float: left;
+	width: 23%;
+	height: 420px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin: 1%;
+}
+
+
+img {
+	width: 100%;
+}
+
+/*////SOCIAL////*/
+
+
+
+/*////FOOTER////*/
+
+#copyright {
+	font-size: .75em;
+	font-family: monospace;
+	border-top: 1px solid #ccc;
+	text-align: center;
 	clear:both;
+	margin-top: 200px;
+	background-color: #ddd;
+	padding-bottom:4px;
 }
