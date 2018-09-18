@@ -18,12 +18,16 @@ iframe {
 
 
 .wrapper{
+    display: block;
 	margin: 0 auto;
 	width: 70%;
-	min-width: 480px;
+	min-width: 480px;  
 }
 
-
+header {
+    position: absolute;
+    top: 0px;
+}
 .clearfix:after {
 	content: ".";
 	display: block;
@@ -38,6 +42,9 @@ iframe {
 
 .fixed-pos {
     position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
 
 h1 {
@@ -67,7 +74,7 @@ hgroup{
 
 
 #banner {
-	margin: 0 auto;
+	margin: 120px auto 0;
 	display: block;
 	width: 100%;
 	padding-bottom: 1%;
